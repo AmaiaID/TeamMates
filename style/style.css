@@ -1,0 +1,79 @@
+
+h3, h5 { 
+    display:flex;      
+    justify-content:center;
+    align-content: center;  
+    color:crimson;
+    margin:auto;   
+}
+
+h3 {
+    background-color:darkgray;
+}
+
+.table{ 
+    width:90%;
+    margin-top:20px;
+}
+.table th {
+    color:crimson;
+    background-color:beige;
+}
+
+.table td{
+    background-color:beige;
+}
+
+.photo {
+    border-radius: 100%;
+    width: 200px;
+    height:200px;
+} 
+
+.main { 
+    display:flex;    
+    justify-content:center;
+    align-content: center;
+    background-color: darkgray;
+  }
+
+.modal-header {
+    display:flex;    
+    justify-content:center;
+    align-content: center;     
+}
+
+.modal-header .close{
+    margin:0px;
+}
+
+.modal-body {
+     display:flex;
+    flex-direction:column;     
+    justify-content:center;
+    align-content: center;    
+}
+
+.modal{
+    background-color:darkgrey;
+}
+
+#picture, #phone, #contact, #site {
+    flex-direction:row;  
+    display:flex;      
+    justify-content:center;
+    align-content: center;    
+}
+
+#noContact {
+    justify-content:center;
+    align-content: center; 
+    flex-direction:row;  
+    
+}
+
+/*Hide divs*/
+.none {
+     display: none;
+}
+

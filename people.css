@@ -1,0 +1,21 @@
+.main { display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-content: center;
+    
+    
+}
+
+.modal-header{
+     flex-direction:row;
+    justify-content:center;
+    align-content: center;
+    
+}
+
+.modal-body{
+     flex-direction:row;
+    justify-content:center;
+    align-content: center;
+    
+}
